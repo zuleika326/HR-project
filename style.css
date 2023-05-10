@@ -8,7 +8,7 @@
 
 
 
-nav{   
+nav {   
     display: flex; 
     padding: 1rem;
     justify-content: space-between;
@@ -32,17 +32,47 @@ list-style: none;
     padding: 5rem;
 }
 
-.story{
-
+#story{
+text-align: center;
+color: orange;
+padding: 1.2rem;
+margin: 1.3rem;
 }
 #btn{
    background-color: orange;
    border-radius: 30px; 
-   display: flex;
+   align-items: center;
    color: white;
-
+   
 }
 #logo{
     margin: 1.8rem;
 }
-
+#part{
+    background-color: orange;
+    color: white;
+    padding: 0.2%;
+    border-radius:30px ;
+}
+#sub{
+    background-color: yellow;
+    color: white;
+}
+#line ul{
+    display: block;
+    float: left;
+    align-items: center;
+    margin: 1.2rem;
+}
+#top{
+    margin:0.2rem ;
+    display: flex;
+}
+#val{
+    color: black;
+    text-align: center;
+    padding: 1.3rem;
+}
+#our{
+    display: flex;
+}
