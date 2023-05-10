@@ -1,78 +1,108 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing:border-box;
-    font-size: 18px;
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-size: 18px;
+  font-family:'Times New Roman', Times, serif;
 }
 
-
-
-
-nav {   
-    display: flex; 
-    padding: 1rem;
-    justify-content: space-between;
-    align-items: center;
+nav {
+  display: flex;
+  padding: 1rem;
+  justify-content: space-between;
+  align-items: center;
+}
+nav ul li:hover{
+    color: yellow;
 }
 
-ul{
-    display: flex;
-    padding: .5rem;
+ul {
+  display: flex;
+  padding: 0.5rem;
 }
-li{
-margin: .5rem;
-padding: 0.5rem;
-list-style: none;
-
-}
-
-.image{
-    object-fit: cover;
-    text-align: center;
-    padding: 5rem;
+li {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  list-style: none;
 }
 
-#story{
-text-align: center;
-color: orange;
-padding: 1.2rem;
-margin: 1.3rem;
+#image {
+  width: 100%;
+  height: 90vh;
+  padding: 1.3rem;
 }
-#btn{
-   background-color: orange;
-   border-radius: 30px; 
-   align-items: center;
-   color: white;
-   
+
+#story {
+  text-align: center;
+  color: orange;
+  /* padding: 1.2rem; */
+  margin: 1.3rem;
 }
-#logo{
-    margin: 1.8rem;
+#btn {
+  background-color: orange;
+  border-radius: 30px;
+  text-align: center;
+  color: white;
 }
-#part{
-    background-color: orange;
-    color: white;
-    padding: 0.2%;
-    border-radius:30px ;
+#logo {
+  margin: 1.8rem;
 }
-#sub{
-    background-color: yellow;
-    color: white;
+#part {
+  background-color: orange;
+  color: white;
+  padding: 0.2%;
+  border-radius: 30px;
 }
-#line ul{
+#sub {
+  background-color: yellow;
+  color: white;
+}
+#line ul {
+  display: block;
+  float: left;
+  align-items: center;
+}
+#top {
+  margin: 0.2rem;
+  display: flex;
+}
+#val {
+  color: black;
+  text-align: center;
+  padding: 1.3rem;
+  margin: 1.5rem;
+}
+#our {
+  display: flex;
+}
+#team{
+    
+    margin: 0.3rem;
+    align-content: center;
     display: block;
-    float: left;
-    align-items: center;
-    margin: 1.2rem;
+    
 }
-#top{
-    margin:0.2rem ;
-    display: flex;
+#dan {
+    width:20%;
+    height: 30vh;
 }
-#val{
-    color: black;
-    text-align: center;
-    padding: 1.3rem;
+#mary{
+    width: 20%;
+    height: 30vh;
 }
-#our{
-    display: flex;
+#dee{
+    width:20%;
+    height: 30vh;
 }
+#topic{
+     text-align: center;
+     padding: 1.3rem;
+     color: black;
+}
+span{
+    color: yellow;
+}
+    
+  
+
+
