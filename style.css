@@ -3,7 +3,7 @@
   padding: 0%;
   box-sizing: border-box;
   font-size: 18px;
-  font-family:'Times New Roman', Times, serif;
+  font-family: inter;
 }
 
 nav {
@@ -12,14 +12,16 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav ul li:hover{
-    color: yellow;
+
+nav ul li:hover {
+  color: yellow;
 }
 
 ul {
   display: flex;
   padding: 0.5rem;
 }
+
 li {
   margin: 0.5rem;
   padding: 0.5rem;
@@ -38,71 +40,104 @@ li {
   /* padding: 1.2rem; */
   margin: 1.3rem;
 }
+
 #btn {
   background-color: orange;
   border-radius: 30px;
   text-align: center;
   color: white;
 }
+
 #logo {
   margin: 1.8rem;
 }
+
 #part {
   background-color: orange;
   color: white;
-  padding: 0.2%;
-  border-radius: 30px;
+  /* padding: 0.2rem; */
+  border-radius: 5px;
+  text-align: center;
 }
+
 #sub {
-  background-color: yellow;
+  background-color: orange;
   color: white;
+  margin: 0.1rem;
+  border-radius: 5px;
 }
+
 #line ul {
   display: block;
   float: left;
   align-items: center;
+  background-color:;
 }
+
 #top {
   margin: 0.2rem;
   display: flex;
 }
+
 #val {
   color: black;
   text-align: center;
   padding: 1.3rem;
   margin: 1.5rem;
 }
+
 #our {
   display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1rem;
+
 }
-#team{
-    
-    margin: 0.3rem;
-    align-content: center;
-    display: block;
-    
+
+#team {
+
+  margin: 0.3rem;
+  align-content: center;
+  display: flex;
+
 }
-#dan {
-    width:20%;
-    height: 30vh;
+
+#topic {
+  text-align: center;
+  padding: 1.3rem;
+  color: black;
 }
-#mary{
-    width: 20%;
-    height: 30vh;
+
+span {
+  color: yellow;
 }
-#dee{
-    width:20%;
-    height: 30vh;
+
+#care {
+  display: flex;
+  text-align: justify;
 }
-#topic{
-     text-align: center;
-     padding: 1.3rem;
-     color: black;
+
+section {
+  padding: 1rem;
+  margin: 1rem;
 }
-span{
-    color: yellow;
+
+/* #black{
+  text-align: center;
+  padding: 4rem;
+  margin: 1.2rem;
+  font-size: large;
+} */
+#try {
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding: 1rem;
 }
-    
+
+#logo {
+  text-align: center;
+  background-color: gainsboro;
+  padding:5rem;
   
-
-
+}
