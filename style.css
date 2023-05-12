@@ -43,9 +43,9 @@ li {
 
 #btn {
   background-color: orange;
-  border-radius: 30px;
   text-align: center;
   color: white;
+  border-radius:5px;
 }
 
 #logo {
@@ -64,15 +64,16 @@ li {
   background-color: orange;
   color: white;
   margin: 0.1rem;
-  border-radius: 5px;
+  /* border-radius: 5px; */
+  margin-bottom: 6rem;
 }
 
-#line ul {
+/* #line ul {
   display: block;
   float: left;
   align-items: center;
   background-color:;
-}
+} */
 
 #top {
   margin: 0.2rem;
@@ -140,4 +141,12 @@ section {
   background-color: gainsboro;
   padding:5rem;
   
+}
+#last{
+  padding: 20px;
+  margin-bottom: 20px;
+  display: block;
+}
+#input{
+  margin-bottom: 6rem;
 }
