@@ -11,6 +11,7 @@ nav {
   padding: 1rem;
   justify-content: space-between;
   align-items: center;
+  justify-content: center;
 }
 
 nav ul li:hover {
@@ -33,12 +34,15 @@ li {
   height: 90vh;
   padding: 1.3rem;
 }
+.link{
+  color:#ffb611;
+}
 
 #story {
   text-align: center;
   color: orange;
-  /* padding: 1.2rem; */
-  margin: 1.3rem;
+  font-size: xx large;
+  margin: 6rem;
 }
 
 #btn {
@@ -92,7 +96,6 @@ li {
   justify-content: center;
   margin: 2rem;
   padding: 1rem;
-
 }
 
 #team {
@@ -138,7 +141,7 @@ section {
 
 #logo {
   text-align: center;
-  background-color: gainsboro;
+  background-color: #fdfbf3;
   padding:5rem;
   
 }
@@ -150,3 +153,18 @@ section {
 #input{
   margin-bottom: 6rem;
 }
+#inline{
+  display: flex;
+  justify-content: center;
+ 
+}
+#values{
+  display: flex;
+  justify-content: center;
+  margin: 0.3rem;
+}
+.style{
+  background-color:#fdfbf3;
+  margin: 6rem;
+}
+
